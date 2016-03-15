@@ -29,6 +29,7 @@ settings:
   scope: comment, punctuation.definition.comment
   settings:
     foreground: '#65737e'
+    fontStyle: italic
 
 - name: Variable
   scope: variable
@@ -109,6 +110,7 @@ settings:
   scope: entity.other.attribute-name
   settings:
     foreground: '#BB80B3'
+    fontStyle: italic
 
 - name: Inserted
   scope: markup.inserted
@@ -206,3 +208,18 @@ settings:
   scope: source.json meta.structure.dictionary.json string.quoted.double.json - meta.structure.dictionary.json meta.structure.dictionary.value.json string.quoted.double.json, source.json meta.structure.dictionary.json punctuation.definition.string - meta.structure.dictionary.json meta.structure.dictionary.value.json punctuation.definition.string
   settings:
     foreground: '#C594C5'
+
+- name: SublimeLinter Warning
+  scope: sublimelinter.mark.warning
+  settings:
+    foreground: '#DDB700'
+
+- name: SublimeLinter Error
+  scope: sublimelinter.mark.error
+  settings:
+    foreground: '#D02000'
+
+- name: SublimeLinter Gutter Mark
+  scope: sublimelinter.gutter-mark
+  settings:
+    foreground: '#FFFFFF'
